@@ -14,3 +14,10 @@ framework:
     #fragments: true
     php_errors:
         log: true
+
+snc_redis:
+    clients:
+        default:
+            type: predis
+            alias: default
+            dsn: redis://127.0.0.1
